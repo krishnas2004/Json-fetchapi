@@ -22,12 +22,13 @@ function App() {
   }
 
   return (
-    <div>
-      <h1>Axios Tutorial</h1>
+    <div id="app-container" className="white-black-theme">  
+      
+      {/* <h1>Axios Tutorial</h1> */}
       {userData && (
         <>
-          <h2>{userData.first_name}</h2>
-          <h2>{userData.last_name}</h2>
+          <h2>{userData.first_name} {userData.last_name}</h2>
+          {/* <h2>{userData.last_name}</h2> */}
           <p>Email: {userData.email}</p>
           <p>Mobile Number: {userData.mobile_number}</p>
           <p>Country: {userData.country}</p>

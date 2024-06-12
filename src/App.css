@@ -4,6 +4,104 @@
   padding: 2rem;
   text-align: center;
 }
+/* App.css */
+#app-container {  /* Target the ID */
+  background-color: white;
+  color: rgb(0, 0, 0); /* Adjust color values if needed */
+}
+
+#app-container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  text-align: left;  /* Align text to the left */
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header img {
+  margin-right: 10px;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+  color: #555;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+h4 {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #666;
+}
+
+p {
+  margin: 5px 0;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.skill-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: #fff;
+}
+
+.project, .education, .experience, .certificate {
+  margin-bottom: 20px;
+}
+
+.project p, .education p, .experience p, .certificate p {
+  margin: 2px 0;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
 
 .logo {
   height: 6em;
